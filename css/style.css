@@ -38,7 +38,7 @@ h6 {
 }
 
 .main {
-  min-height: 400px;
+  min-height: 380px;
   margin-right: 150px;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
@@ -58,7 +58,8 @@ h6 {
 
 .card-title {
   color: black;
-  text-align: center;
+  text-align: left;
+  display: flex;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
@@ -131,4 +132,41 @@ h6 {
 
 .projects {
   padding-top: 30px;
+}
+
+/* .links-footer {
+  text-align: right;
+} */
+
+.link-image-t {
+  opacity: 0.4;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.top-left {
+  margin-left: 30px;
+  flex: 50%;
+}
+
+.top-right {
+  margin-right: 30px;
+  margin-bottom: 20px;
+  flex: 50%;
+  text-align: right;
+}
+
+.card {
+  float: left;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.main-event {
+  min-height: 515px;
 }
