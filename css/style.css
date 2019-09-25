@@ -1,14 +1,14 @@
 body {
   color: black;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .wrapper {
-  background-color: #F2F3F5;
+  background-color: #f2f3f5;
   height: 300px;
   text-align: center;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
 }
 
 .photoNilana {
@@ -21,14 +21,14 @@ body {
 
 .name {
   margin-top: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 h6 {
   margin-top: 10px;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 @media (min-width: 1200px) {
@@ -40,8 +40,8 @@ h6 {
 .main {
   min-height: 380px;
   margin-right: 150px;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .page-content {
@@ -61,8 +61,8 @@ h6 {
   text-align: left;
   display: flex;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .links {
@@ -70,18 +70,18 @@ h6 {
 }
 
 .wrapper-download {
-  background-color: #F2F3F5;
+  background-color: #f2f3f5;
   height: 160px;
   text-align: center;
-  border: 1px solid #E5E5E5;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  border: 1px solid #e5e5e5;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .download {
   margin-top: 40px;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .img-download {
@@ -89,9 +89,10 @@ h6 {
   box-shadow: 5px #858485;
 }
 
-.my-2, .p-2 {
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
+.my-2,
+.p-2 {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .img-card {
@@ -123,6 +124,7 @@ h6 {
 
 .news-portal {
   padding-top: 40px;
+  background-color: #f2f3f5;
 }
 
 .project-name {
@@ -145,8 +147,8 @@ h6 {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .top-left {
@@ -165,8 +167,49 @@ h6 {
   float: left;
   margin-right: 20px;
   margin-top: 50px;
+  padding-top: 10px;
 }
 
 .main-event {
   min-height: 515px;
+}
+
+.paragraph {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.code-color {
+  color: #2872a0;
+}
+
+.name {
+  font-size: 1.75rem;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.about-me {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.project-background {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 250px;
 }
