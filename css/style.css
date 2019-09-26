@@ -213,3 +213,13 @@ p {
   width: 350px;
   height: 250px;
 }
+
+/* CELLPHONES */
+@media (max-width: 575.98px) {
+  .row.wrap-reverse-sm {
+    flex-wrap: wrap-reverse;
+  }
+  .project-row {
+    height: auto;
+  }
+}
