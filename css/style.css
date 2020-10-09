@@ -11,6 +11,18 @@ body {
   border: 1px solid #e5e5e5;
 }
 
+nav a.text-light {
+  transition-property: background, text-decoration, border-radius;
+  transition: 250ms ease;
+}
+
+nav a.text-light:hover {
+  text-decoration: none;
+  background: #494c4e !important;
+  border-radius: 10%;
+  background-color: white;
+}
+
 .photoNilana {
   box-shadow: 0px 0px 8px #858485;
   margin-top: 30px;
@@ -93,6 +105,7 @@ h6 {
 .p-2 {
   font-family: "Open Sans", sans-serif;
   font-family: "Raleway", sans-serif;
+  text-decoration: none;
 }
 
 .img-card {
@@ -115,6 +128,15 @@ h6 {
 .link-image {
   text-decoration: none;
   color: black;
+}
+
+.twitter, .linkedin, .github, .email {
+  transition-property: rotate;
+  transition: 250ms ease;
+}
+
+.twitter:hover, .linkedin:hover, .github:hover, .email:hover {
+  transform: rotate(45deg);
 }
 
 .project-row {
@@ -214,7 +236,17 @@ p {
   .row.wrap-reverse-sm {
     flex-wrap: wrap-reverse;
   }
+
   .project-row {
     height: auto;
   }
+}
+
+.email-footer, .github-footer, .linkedin-footer, .twitter-footer {
+  transition-property: background;
+  transition: 250ms ease;
+}
+
+.email-footer:hover, .github-footer:hover, .linkedin-footer:hover, .twitter-footer:hover {
+  background: #343A40;
 }
